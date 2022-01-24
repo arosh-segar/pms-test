@@ -3,16 +3,16 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Index: NextPage = () => {
   return (
     <div>
       <Head>
         <title>pms front-end</title>
         <meta name="keywords" content="web" />
       </Head>
-      <h1 className="font-bold">Hello</h1>
+      <h1 className="font-bold">About us</h1>
     </div>
   );
 };
 
-export default Home;
+export default Index;
