@@ -1,21 +1,30 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
 /* ./styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body,
+html * {
+  font-family: "Nunito", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.bg-header {
+  background: rgb(58, 191, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 191, 48, 1) 0%,
+    rgba(51, 199, 60, 1) 33%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-* {
-  box-sizing: border-box;
+.neumorphism {
+  border-radius: 27px;
+  background: #d9dddd;
+  box-shadow: -7px 7px 14px #919494, 7px -7px 14px #ffffff;
 }

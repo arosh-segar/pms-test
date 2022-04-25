@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import Header from "../components/Header";
 
 const Index: NextPage = () => {
   return (
@@ -10,7 +9,7 @@ const Index: NextPage = () => {
         <title>pms front-end</title>
         <meta name="keywords" content="web" />
       </Head>
-      <h1 className="font-bold">About us</h1>
+      <Header />
     </div>
   );
 };
